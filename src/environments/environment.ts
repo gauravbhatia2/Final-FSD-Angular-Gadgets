@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiURL : 'http://gauravbhatia1-001-site1.itempurl.comse/api'
+  apiURL : 'http://gauravbhatia1-001-site1.itempurl.com/api'
 };
 
 /*
