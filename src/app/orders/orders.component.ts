@@ -28,10 +28,10 @@ export class OrdersComponent implements OnInit {
   }
 
   onOrderDelete(id: number) {
-    if (confirm('Are you sure to delete this record?')) {
+    if (confirm('Are you sure you want to delete this record?')) {
       this.service.deleteOrder(id).then(res => {
         this.refreshList();
-        this.toastr.warning("Deleted Successfully", "Restaurent App.");
+        this.toastr.warning("Deleted Successfully", "Gadget App");
       });
     }
   }
